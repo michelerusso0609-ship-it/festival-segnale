@@ -214,3 +214,19 @@ h3 {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+/* Adatta la mappa uMap al contenitore della pagina */
+#mappa-sedi {
+  width: 100%;
+  height: 400px; /* Puoi regolare l'altezza a piacimento */
+  border: none;
+  border-radius: 0.75rem; /* Riprende l'arrotondamento usato per le altre schede */
+  margin-bottom: 1rem;
+}
+
+/* Assicura che le immagini della galleria Swiper non sbordino dallo schermo */
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0.75rem;
+}
